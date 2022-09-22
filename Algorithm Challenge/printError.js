@@ -11,3 +11,9 @@ function printError(s) {
   }
   return `${error}/${s.length}`;
 }
+
+console.log(printError("aaabbbbhaijjjm"));
+//result: "0/14"
+
+console.log(printError("aaaxbbbbyyhwawiwjjjwwm"))
+//result: "8/22"
