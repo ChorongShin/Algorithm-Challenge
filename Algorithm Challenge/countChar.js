@@ -10,3 +10,7 @@ function count(string) {
   }
   return obj;
 }
+
+//Example:
+console.log(count('aba'));
+//Output: {a: 2, b: 1}
