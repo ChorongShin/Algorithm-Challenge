@@ -1,5 +1,5 @@
 function DNAStrand(dna){
-  let result = '';
+  let newDNA = '';
   for (let i = 0; i < dna.length; i++) {
     if (dna[i] === 'A') {
       newDNA += 'T';
@@ -11,7 +11,7 @@ function DNAStrand(dna){
       newDNA += "G"
     }
   }
-  return result;
+  return newDNA;
 }
 
 //Examples:
