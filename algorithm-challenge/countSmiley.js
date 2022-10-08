@@ -1,9 +1,7 @@
 function countSmileys(arr) {
   let count = 0;
 
-  const smileys = [":)",";)",":D",";D",":-D",":~D",":-)",":~)",";~D",";~)",";-D",";-)"]
-;
-
+  const smileys = [":)",";)",":D",";D",":-D",":~D",":-)",":~)",";~D",";~)",";-D",";-)"];
 
   for (let i = 0; i < arr.length; i++) {
     if (smileys.includes(arr[i])) {
